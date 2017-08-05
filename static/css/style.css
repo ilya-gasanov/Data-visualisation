@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+}
+
+hr{
+    margin:0;
+    border-width:1px;
+}
+
+.datamap{
+    margin-top:2em;
+    position:relative;
+    height:80%;
+}
+
+.datamaps-legend{
+    padding:0;
+    z-index:0;
+    position:relative;
+    margin-left:1em;
+}
+
+.datamaps-legend dl {
+  text-align: center;
+  position: static;
+  margin:0;
+}
+
+.hoverinfo{
+    font-size:1em;
+}
+
+.legend{
+    margin:0 2em;
+    padding: 0 2em;
+}
