@@ -11,7 +11,7 @@ app.use_reloader = True
 app.jinja_env.autoescape = False
 
 # read-only user test account
-app.config['MONGO_URI'] = "mongodb://test_user:GSMBrNQMICKDUewq@cluster0-shard-00-00-lxyl6.mongodb.net:27017," \
+app.config['MONGO_URI'] = "mongodb://test_user:VJBod5g5cmSfNQFz@cluster0-shard-00-00-lxyl6.mongodb.net:27017," \
                           "cluster0-shard-00-01-lxyl6.mongodb.net:27017,cluster0-shard-00-02-lxyl6.mongodb.net:27017/" \
                           "data?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin"
 mongo = PyMongo(app)
